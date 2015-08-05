@@ -138,3 +138,39 @@ Class ~ Adhes + BNucl + Chrom + Mitos + NNucl + Thick + UShap
 - BNucl  1  109.762 123.76
 - Thick  1  110.632 124.63
 ```
+We can see that the final model better fits the data according to AIC (lower is better).
+
+---
+#### Making Predictions
+```R
+newdata <- list(Adhes=1, BNucl=1, Chrom=3,Mitos=1, NNucl=1, Thick=4, UShap=1)
+> predict(minaic.logistic,newdata, type="response")
+        1
+0.9921115
+```
+
+Things get a little trickier when trying to determine a confidence interval.
+We need to get a point estimate as well as standard errors on a linear scale before
+we convert those back into probabilities.
+
+```R
+> linear.bounds <- predict(minaic.logistic , newdata = list(Adhes=1, BNucl=1, Chrom=3, Mitos=1, NNucl=1, Thick=4, UShap=1), type="link", se.fit=TRUE)
+> linear.bounds
+$fit
+       1
+4.834428
+
+$se.fit
+[1] 0.5815185
+
+$residual.scale
+[1] 1
+
+```
+Using a 95% confidence interval around the point estimate we get:
+
+```R
+> ilogit(c(linear.bounds$fit-1.96*x$se.fit, linear.bounds$fit, linear.bounds$fit+1.96*x$se.fit))
+        1         1         1
+0.9757467 0.9921115 0.9974629
+```
