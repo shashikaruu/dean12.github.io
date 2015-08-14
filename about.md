@@ -19,5 +19,3 @@ title: About me
 * Matlab
 * Java
 * Stata
-
-Get in contact with me through <dean.j.magee@gmail.com>

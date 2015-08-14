@@ -3,7 +3,7 @@ layout: post
 title: Logistic Regressions and Breast Cancer
 ---
 
-Using R to train a classifier to separate between malignant and benign tumors. 
+Using R to train a classifier to separate between malignant and benign tumors.
 
 #### Examining the data
 
