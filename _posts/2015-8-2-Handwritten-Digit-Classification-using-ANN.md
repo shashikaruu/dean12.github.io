@@ -259,8 +259,8 @@ end
 We can see that as the neural network is fed more data it gets better at recognizing the characters.
 
 #### Loss on the training set
-![Training Loss]({{ site.url }}_images/train_loss.jpg)
+![Training Loss]({{ site.url }}/_images/train_loss.jpg)
 
 
 #### Loss on the test set
-![Training Loss]({{ site.url }}_images/test_loss.jpg)
+![Training Loss]({{ site.url }}/_images/test_loss.jpg)
