@@ -263,4 +263,4 @@ We can see that as the neural network is fed more data it gets better at recogni
 
 
 #### Loss on the test set
-![Training Loss]({{ site.url }}/_images/test_loss.jpg)
+![Test Loss]({{ site.url }}/_images/test_loss.jpg)
