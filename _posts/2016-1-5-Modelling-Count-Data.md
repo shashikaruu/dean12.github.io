@@ -4,10 +4,7 @@ title: Defects in a wave soldering process
 ---
 
 
-Defects in a wave soldering process
-=========
-
-##### Modelling defects in a wave soldering process using a poisson distribution
+### Modelling defects in a wave soldering process using a poisson distribution
 
 
 Components are attached to an electronic circuit card assembly by a wave-soldering process. The soldering process involves baking and preheating the circuit card and then passing it through a solder wave by conveyor. Defect arise during the process. Design is 2^{7-3} with 3 replicates.
