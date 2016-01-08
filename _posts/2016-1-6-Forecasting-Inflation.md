@@ -1,3 +1,8 @@
+---
+layout: post
+title: Time Series Inflation Forecasting
+---
+
 
 ## Part 1: Stationarity and Structural Breaks
 
