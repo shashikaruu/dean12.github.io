@@ -37,11 +37,11 @@ plot.ts(infl, lwd=3, col="gray", main="US inflation")
 ```
 
 
-![svg]({{ site.url }}/_posts/output_2_0.svg)
+![svg]({{ site.url }}/images/output_2_0.svg)
 
 
 
-![svg]({{ site.url }}/_posts/output_2_1.svg)
+![svg]({{ site.url }}/images/output_2_1.svg)
 
 
 #### Structural Break Tests
@@ -81,7 +81,7 @@ dd[427,]   ##   [1982-08-01,0.2049181]
 
 
 
-![svg]({{ site.url }}/_posts/output_4_1.svg)
+![svg]({{ site.url }}/images/output_4_1.svg)
 
 
 
@@ -115,7 +115,7 @@ dd[427,]   ##   [1982-08-01,0.2049181]
 
 
 
-![svg]({{ site.url }}/_posts/output_4_4.svg)
+![svg]({{ site.url }}/images/output_4_4.svg)
 
 
 
@@ -131,7 +131,7 @@ dd[427,]   ##   [1982-08-01,0.2049181]
 
 
 
-![svg]({{ site.url }}/_posts/output_4_6.svg)
+![svg]({{ site.url }}/images/output_4_6.svg)
 
 
 
@@ -165,7 +165,7 @@ dd[427,]   ##   [1982-08-01,0.2049181]
 
 
 
-![svg]({{ site.url }}/_posts/output_4_9.svg)
+![svg]({{ site.url }}/images/output_4_9.svg)
 
 
 #### Stationarity and Unit Roots
