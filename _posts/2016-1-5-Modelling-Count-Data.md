@@ -137,7 +137,7 @@ plot(density(final.wavesolder$response))
 ```
 
 
-![svg](ass3redo-Copy1_files/ass3redo-Copy1_15_0.svg)
+![svg]({{ site.url }}/ass3redo-Copy1_files/ass3redo-Copy1_15_0.svg)
 
 
 It still appears that a poisson regression will model the count data well. The observations greater than 100 may pose a problem in the model and we must be wary of this.
@@ -407,19 +407,19 @@ plot(wavesolder.poisson2)
 ```
 
 
-![svg](ass3redo-Copy1_files/ass3redo-Copy1_34_0.svg)
+![svg]({{ site.url }}/ass3redo-Copy1_files/ass3redo-Copy1_34_0.svg)
 
 
 
-![svg](ass3redo-Copy1_files/ass3redo-Copy1_34_1.svg)
+![svg]({{ site.url }}/ass3redo-Copy1_files/ass3redo-Copy1_34_1.svg)
 
 
 
-![svg](ass3redo-Copy1_files/ass3redo-Copy1_34_2.svg)
+![svg]({{ site.url }}/ass3redo-Copy1_files/ass3redo-Copy1_34_2.svg)
 
 
 
-![svg](ass3redo-Copy1_files/ass3redo-Copy1_34_3.svg)
+![svg]({{ site.url }}/ass3redo-Copy1_files/ass3redo-Copy1_34_3.svg)
 
 
 We now remove rows 25, 27 and 43 and re-estimate the model
