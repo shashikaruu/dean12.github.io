@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time Series Inflation Forecasting
+title: Time Series Inflation Forecasting Pt1
 ---
 
 
@@ -179,7 +179,7 @@ Using the short version of the lag parameter (=6), we get a p-value equal to 0.0
 
 ```R
 adfTest(cpi[,2], lags=20, type="ct")  # cpi has at least one unit root
-adfTest(infl, lags=50, type="c")     # infl has no unit root, stationary
+adfTest(infl, lags=50, type="c")     # infl has a unit root, non-stationary....BUT!!!
 
 PP.test(infl, lshort = TRUE)  # infl has no unit root, stationary -- this is the preferred test
 ```
